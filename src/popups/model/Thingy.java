@@ -6,20 +6,21 @@ public class Thingy
 	private double value;
 	private String words;
 	private boolean isValid;
-	
-	private int getnumber()
+
+
+	public int getnumber()
 	{
 		return number;
 	}
-	private double getvalue()
+	public double getvalue()
 	{
 		return value;
 	}
-	private String getwords()
+	public String getWords()
 	{
 		return words;
 	}
-	private boolean getisValid()
+	public boolean getisValid()
 	{
 		return isValid;
 	}
